@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>Asheville Music Guide</title>
+  <meta name="description" content="Asheville Music Guide">
   <meta name="author" content="SitePoint">
 
   <link rel="stylesheet" type="text/css" href="css/prc.css">

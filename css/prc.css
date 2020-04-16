@@ -1,0 +1,120 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-ExtraBold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Light.otf);
+  font-weight: lighter;
+}
+
+body{
+	font-family: Gilroy;
+	font-size: 20px;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3{
+
+}
+
+span{
+	z-index: 100;
+	position: relative;
+}
+
+.background--red{
+	background: #ec4c34;
+}
+
+.background--yellow{
+	background: #fcd40b;
+}
+
+.background--blue{
+	background: #1e7fbf;
+}
+
+.background--green{
+	background: #1aa286;
+}
+
+.padding-top--large{
+	padding-top: 5rem;
+}
+
+.padding-bottom--large{
+	padding-bottom: 5rem;
+}
+
+.text--uppercase{
+	text-transform: uppercase;
+}
+
+.text--white{
+	color: white;
+}
+
+.text--bold{
+	font-weight: bold;
+}
+
+.amg-banner{
+	text-align: center;
+	padding: 1rem 0;
+}
+
+.amg-section .inner{
+	display: flex;
+	align-items: center;
+	width: 90%;
+	max-width: 1024px;
+	margin: auto;
+}
+
+.amg-section--center .inner{
+	justify-content: center;
+}
+
+.amg-section--image-right .inner{
+	flex-flow: row-reverse;
+}
+
+.amg-section__image{
+	margin: 1rem;
+}
+
+.amg-section__content{
+	margin: 1rem;
+	max-width: 50%;
+}
+
+.amg-section img{
+	max-width: 400px;
+}
+
+.amg-section.amg-section--center{
+	text-align: center;
+}
+
+.paragraph--sign-up-arrow{
+	position: relative;
+}
+
+.paragraph--sign-up-arrow img{
+	position: absolute;
+	right: 0;
+	bottom: -100%;
+	z-index: 0;
+}
+
+.paragraph--sign-up-arrow span{
+	position: relative;
+	z-index: 100;
+}

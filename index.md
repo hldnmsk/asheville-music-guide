@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<div class="amg-banner background--red text--uppercase">
+	<div class="amg-banner background--red text--uppercase text--bold">
 		Due to COVID-19 concert cancellations, we are using this downtime to bring you something really exciting!
 	</div>
 	<div class="amg-section amg-section--center amg-section--back-text amg-section--image-left background--yellow">

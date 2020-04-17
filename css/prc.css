@@ -29,6 +29,21 @@ span{
 	position: relative;
 }
 
+.btn{
+	border-radius: .5rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+	border: 3px solid black;
+	background: white;
+	color: black;
+	padding: .5rem 2rem;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background: #f2f2f2;
+}
+
 .background--red{
 	background: #ec4c34;
 }
@@ -39,6 +54,10 @@ span{
 
 .background--blue{
 	background: #1e7fbf;
+}
+
+.background--pink{
+	background: #f396bb;
 }
 
 .background--green{
@@ -70,12 +89,83 @@ span{
 	padding: 1rem 0;
 }
 
+.amg-section{
+	position: relative;
+}
+
+.amg-section--stay-up-to-date{
+	padding: 0;
+}
+
+.amg-section--stay-up-to-date .inner{
+	flex-direction: column;
+	padding: 5rem 0;
+	position: relative;
+}
+
+.amg-section--stay-up-to-date .inner .amg-section__content{
+	max-width: 500px;
+}
+
+.paragraph--sign-up-arrow{
+	position: relative;
+}
+
+.paragraph--sign-up-arrow img{
+	position: absolute;
+  right: -70px;
+  bottom: -87px;
+  z-index: 0;
+}
+
+.paragraph--sign-up-arrow span{
+	position: relative;
+	z-index: 100;
+}
+
+.amg-section img.sign-up-arrow{
+	width: 200px;
+}
+
+.amg-section img.sign-up-point{
+	position: absolute;
+  bottom: 0px;
+  left: 40px;
+  max-width: 300px;
+}
+
+.amg-section--love-you{
+
+}
+
+.amg-section--love-you .love-you-arrow{
+	position: absolute;
+	/*transform: translateX(100%);*/
+	width: 200px;
+	right: -210px;
+}
+
 .amg-section .inner{
 	display: flex;
 	align-items: center;
 	width: 90%;
 	max-width: 1024px;
 	margin: auto;
+}
+
+@media(max-width: 1024px){
+	.amg-section .inner{
+		flex-direction: column;
+	}
+	.amg-section--image-right .inner{
+		flex-direction: column-reverse !important;
+	}
+}
+
+@media(max-width: 768px){
+	.amg-section--stay-up-to-date .inner .amg-section__content{
+		max-width: 300px;
+	}	
 }
 
 .amg-section--center .inner{
@@ -101,20 +191,4 @@ span{
 
 .amg-section.amg-section--center{
 	text-align: center;
-}
-
-.paragraph--sign-up-arrow{
-	position: relative;
-}
-
-.paragraph--sign-up-arrow img{
-	position: absolute;
-	right: 0;
-	bottom: -100%;
-	z-index: 0;
-}
-
-.paragraph--sign-up-arrow span{
-	position: relative;
-	z-index: 100;
 }

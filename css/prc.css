@@ -29,6 +29,10 @@ span{
 	position: relative;
 }
 
+.wrapper{
+	overflow: hidden;
+}
+
 .btn{
 	border-radius: .5rem;
 	font-size: 1.25rem;
@@ -104,7 +108,7 @@ span{
 }
 
 .amg-section--stay-up-to-date .inner .amg-section__content{
-	max-width: 500px;
+	/*max-width: 500px;*/
 }
 
 .paragraph--sign-up-arrow{
@@ -113,9 +117,17 @@ span{
 
 .paragraph--sign-up-arrow img{
 	position: absolute;
-  right: -70px;
+  right: -90px;
   bottom: -87px;
   z-index: 0;
+}
+
+@media(max-width: 768px){
+	.paragraph--sign-up-arrow img{
+		right: -90px;
+	  bottom: -67px;
+	  width: 150px !important;
+	 }
 }
 
 .paragraph--sign-up-arrow span{
@@ -164,7 +176,7 @@ span{
 
 @media(max-width: 768px){
 	.amg-section--stay-up-to-date .inner .amg-section__content{
-		max-width: 300px;
+		/*max-width: 300px;*/
 	}	
 }
 
@@ -185,8 +197,15 @@ span{
 	max-width: 50%;
 }
 
+@media(max-width: 768px){
+	.amg-section__content{
+		max-width: 100%;
+	}
+}
+
 .amg-section img{
-	max-width: 400px;
+	max-width: 100%;
+	width: 400px;
 }
 
 .amg-section.amg-section--center{

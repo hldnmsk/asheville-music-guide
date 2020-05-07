@@ -22,7 +22,7 @@
 		<div class="amg-section amg-section--main amg-section--back-text amg-section--image-left background--yellow padding-top--large padding-bottom--large amg-section--center">
 			<div class="inner">
 				<div class="amg-section__image">
-					<img src="images/amg-tape.png"/>
+					<img src="images/amg-logo.png"/>
 				</div>
 				<div class="amg-section__content">
 					<h1>
@@ -39,7 +39,7 @@
 		<div class="amg-section amg-section--back-text amg-section--image-left background--blue amg-section--image-right text--white padding-top--large padding-bottom--large">
 			<div class="inner">
 				<div class="amg-section__image">
-					<img src="images/amg-tape-2.0.png"/>
+					<img src="images/amg-2-logo.png"/>
 				</div>
 				<div class="amg-section__content">
 					<h2>
@@ -71,7 +71,7 @@
 						<span>
 							Additionally, if you want the latest news about our work on AMG 2.0, our newsletter will be the best place to keep track of our progress.
 						</span>
-						<img src="images/arrow-left.png" class="sign-up-arrow"/>
+						<img src="images/arrow.png" class="sign-up-arrow hide--mobile"/>
 					</p>
 				</div>
 				<div class="amg-section__cta">
@@ -79,7 +79,7 @@
 						Sign me up!
 					</a>
 				</div>
-				<img src="images/point-right.png" class="sign-up-point"/>
+				<img src="images/man-point.png" class="sign-up-point hide--mobile"/>
 			</div>
 		</div>
 		<div class="amg-section amg-section--love-you amg-section--image-left background--pink amg-section--image-right text--white padding-top--large padding-bottom--large">
@@ -95,11 +95,18 @@
 						We'll make it through these tough times together and we look forward to jamming out with y'all on the other side of this. We're hard at work on AMG 2.0 and other projects within our main company, PRC Applications. Learn more about all we're up to by checking out our official 
 						<span class="image-container">
 							site!
-							<img src="images/arrow-down.png" class="love-you-arrow"/>
+							<img src="images/arrow-2.png" class="love-you-arrow hide--mobile"/>
 						</span>
 					</p>
 					<div class="bottom-logos">
-						
+						<a href="prcapps.com">
+							<img src="images/prc-logo.png"/>
+						</a>
+						<h2>
+							<a href="prcapps.com">
+								prcapps.com
+							</a>						
+						</h2>
 					</div>
 				</div>
 			</div>

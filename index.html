@@ -31,7 +31,7 @@
 						We'll be back soon!
 					</h1>
 					<b>
-						(Bigger and better than ever)
+						(Bigger and better than ever) 
 					</b>
 				</div>
 			</div>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Asheville Music Guide</title>
-  <meta name="description" content="Asheville Music Guide">
+  <meta name="description" content="Live music listings, automatically collected from all the music venues in Asheville NC! There&#039;s an Everest of music out there. Let us be your guide!">
   <meta name="author" content="SitePoint">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">

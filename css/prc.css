@@ -27,6 +27,11 @@ h1, h2, h3{
 
 a{
 	color: white;
+	text-decoration: underline;
+}
+
+a:hover{
+	text-decoration: none;
 }
 
 span{
@@ -119,6 +124,7 @@ span{
 	padding: 0;
 }
 
+.amg-section--social .inner, 
 .amg-section--stay-up-to-date .inner{
 	flex-direction: column;
 	padding: 5rem 0;
@@ -272,4 +278,18 @@ span{
 .bottom-logos h2 a{
 	font-size: 3rem;
 	text-decoration: none;
+}
+
+.social-icons{
+	text-decoration: none;
+}
+
+.social-icons a{
+	display: inline-block;
+	font-size: 2rem;
+	margin: .5rem;
+}
+
+.social-icons a:hover{
+	opacity: .5;
 }

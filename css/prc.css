@@ -39,6 +39,24 @@ span{
 	position: relative;
 }
 
+.email-banner{
+	background: #B895E6;
+	padding: 1rem 0;
+}
+
+.email-banner img{
+	width: 90% !important;
+	max-width: 750px !important;
+}
+
+.email-banner h2{
+	font-size: 3rem;
+}
+
+.email-banner *{
+	margin: 1rem auto;
+}
+
 .wrapper{
 	overflow: hidden;
 }

@@ -57,6 +57,10 @@ span{
 	margin: 1rem auto;
 }
 
+.email-banner .btn{
+	max-width 90%;
+}
+
 .wrapper{
 	overflow: hidden;
 }

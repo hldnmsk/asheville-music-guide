@@ -50,12 +50,14 @@ span{
 	margin: auto;	
 }
 
-.email-banner--horizontal .email-banner__inner{
-	display: grid !important;
-	grid-template-columns: 50% 50%;
-	grid-template-areas: "image text"
-						 "image button";
-	margin: auto;
+@media(min-width: 769px){
+	.email-banner--horizontal .email-banner__inner{
+		display: grid !important;
+		grid-template-columns: 50% 50%;
+		grid-template-areas: "image text"
+							 "image button";
+		margin: auto;
+	}
 }
 
 @media(max-width: 768px){

@@ -40,8 +40,49 @@ span{
 }
 
 .email-banner{
-	background: #B895E6;
+	background: #37EAE5;
 	padding: 1rem 0;
+}
+
+.email-banner__inner{
+	width: 90%;
+	max-width: 1024px;
+	margin: auto;	
+}
+
+.email-banner--horizontal .email-banner__inner{
+	display: grid !important;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "image text"
+						 "image button";
+	margin: auto;
+}
+
+@media(max-width: 768px){
+	.email-banner--horizontal .email-banner__inner{
+		display: grid !important;
+		grid-template-columns: 100%;
+		grid-template-areas: "text"
+							 "image"
+							 "button";
+		margin: auto;
+	}
+}
+
+.email-banner--horizontal .email-banner__image{
+	 grid-area: image;
+}
+
+.email-banner--horizontal .email-banner__text{
+	 grid-area: text;
+	 margin-bottom: 0;
+	 margin-top: auto;
+}
+
+.email-banner--horizontal .email-banner__button{
+	 grid-area: button;
+	 margin-top: 0 !important;
+	 margin-bottom: auto;
 }
 
 .email-banner img{

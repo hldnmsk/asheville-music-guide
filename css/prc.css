@@ -40,7 +40,7 @@ span{
 }
 
 .email-banner{
-	background: #ff7002;
+	background: #3495d2;
 	/*padding: 6rem 0;*/
 	/*background: url('../images/amgeasterupdate.jpg');*/
 	background-size: cover;
@@ -256,6 +256,10 @@ span{
 		max-width: 175px;
 		width: 30% !important;
 	}
+	.email-banner img{
+		/*width: 90% !important;*/
+		max-width: 300px !important;
+	}	
 }
 
 .amg-section--love-you .love-you-arrow{

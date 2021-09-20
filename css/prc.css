@@ -40,8 +40,8 @@ span{
 }
 
 .email-banner{
-	background: #dcc876;
-	padding: 6rem 0;
+	background: #ffbe44;
+	padding: 0;
 	/*background: url('../images/bright-fireworks.jpeg');*/
 	background-size: cover;
 	background-attachment: fixed;

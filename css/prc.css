@@ -42,10 +42,38 @@ span{
 .email-banner{
 	background: #e35c11;
 	padding: 0;
-	/*background: url('../images/bright-fireworks.jpeg');*/
+	background: url('../images/amg-banner-10-25-2021.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;
+}
+
+.full-bleed-banner{
+
+}
+
+.amg-section .full-bleed-banner__image{
+	width:  100%;
+}
+
+.amg-section .full-bleed-banner__image img{
+	width:  100%;
+	max-width:  100%;
+	vertical-align: top;
+}
+
+.full-bleed-banner__overlay{
+	position:  absolute;
+	top: 10%;
+	right:  10%;
+	font-size:  2rem;
+	width:  100%;
+	max-width:  400px;
+}
+
+.email-banner.amg-section--full-img img{
+	width:  100%;
+	margin:  0;
 }
 
 .email-banner *{
@@ -369,4 +397,16 @@ span{
 
 .social-icons a:hover{
 	opacity: .5;
+}
+
+@media(max-width:  1024px){
+	.full-bleed-banner__overlay{
+		position:  relative;
+		background:  black;
+		left:  0;
+		top:  0;
+		width:  auto;
+		max-width:  100%;
+		padding:  2rem;
+	}
 }

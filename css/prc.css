@@ -40,9 +40,9 @@ span{
 }
 
 .email-banner{
-	background: #e35c11;
-	padding: 0;
-	background: url('../images/amg-banner-10-25-2021.jpg');
+	background: #1b9bbb;
+	padding: 5rem 0;
+	/*background: url('../images/amg-banner-10-25-2021.jpg');*/
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom center;

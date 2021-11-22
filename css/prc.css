@@ -63,12 +63,12 @@ span{
 }
 
 .full-bleed-banner__overlay{
-	position:  absolute;
-	top: 10%;
-	right:  10%;
-	font-size:  2rem;
-	width:  100%;
-	max-width:  400px;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	font-size: 2rem;
+	width: 100%;
+	max-width: 400px;
 }
 
 .email-banner.amg-section--full-img img{
@@ -402,11 +402,17 @@ span{
 @media(max-width:  1024px){
 	.full-bleed-banner__overlay{
 		position:  relative;
-		background:  black;
+		background:  #DAD295;
 		left:  0;
 		top:  0;
 		width:  auto;
 		max-width:  100%;
 		padding:  2rem;
+	}
+}
+
+@media(min-width:  1025px){
+	.full-bleed-banner__overlay{
+		transform: translateY(-50%);	
 	}
 }

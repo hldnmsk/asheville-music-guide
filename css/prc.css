@@ -39,13 +39,12 @@ span{
 	position: relative;
 }
 
-.email-banner{
-	background: #df7927;
-	padding: 5rem 0;
-	/*background: url('../images/amg-banner-10-25-2021.jpg');*/
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: bottom center;
+.email-banner {
+  background: #df7927;
+  padding: 5rem 0;
+  background: url('../images/amg-background-11-22-2021.jpg');
+  background-size: cover;
+  background-size: auto 100%;
 }
 
 .full-bleed-banner{

@@ -40,11 +40,12 @@ span{
 }
 
 .email-banner {
-  background: #e0db1e;
+  background: #231f20;
   padding: 5rem 0;
   /*background: url('../images/amg-background-11-22-2021-new.jpg');*/
   background-size: cover;
   background-size: auto 100%;
+  border-top:  2px solid rgba(255, 255, 255, .5);
 }
 
 .full-bleed-banner{

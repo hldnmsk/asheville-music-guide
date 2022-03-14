@@ -71,6 +71,11 @@ span{
 	max-width: 400px;
 }
 
+.full-bleed-banner__overlay--left{
+	left:  10%;
+	right:  auto;
+}
+
 .email-banner.amg-section--full-img img{
 	width:  100%;
 	margin:  0;
@@ -402,12 +407,15 @@ span{
 @media(max-width:  1024px){
 	.full-bleed-banner__overlay{
 		position:  relative;
-		background:  #DAD295;
+		background:  #4DB34C;
 		left:  0;
 		top:  0;
 		width:  auto;
 		max-width:  100%;
 		padding:  2rem;
+	}
+	.full-bleed-banner__overlay--left{
+		
 	}
 }
 

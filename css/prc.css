@@ -40,7 +40,7 @@ span{
 }
 
 .email-banner {
-  background: #f6af1c;
+  background: #f07253;
   padding: 5rem 0;
   /*background: url('../images/amg-background-11-22-2021-new.jpg');*/
   background-size: cover;
@@ -89,6 +89,12 @@ span{
 	width: 90%;
 	max-width: 1024px;
 	margin: auto;	
+}
+
+.email-banner .email-banner__image--vertical img{
+	max-height:  400px;
+	width:  auto !important;
+	max-width:  none !important;
 }
 
 @media(min-width: 769px){

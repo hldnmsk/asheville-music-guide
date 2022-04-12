@@ -76,6 +76,11 @@ span{
 	right:  auto;
 }
 
+.full-bleed-banner__overlay--top{
+	top:  30%;
+	bottom:  auto;
+}
+
 .email-banner.amg-section--full-img img{
 	width:  100%;
 	margin:  0;

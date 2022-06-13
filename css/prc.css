@@ -40,7 +40,7 @@ span{
 }
 
 .email-banner {
-  background: #4872e7;
+  background: #3495D2;
   padding: 5rem 0;
   /*background: url('../images/amg-background-11-22-2021-new.jpg');*/
   background-size: cover;
@@ -87,7 +87,7 @@ span{
 }
 
 .email-banner *{
-	color:  black;
+	/*color:  black;*/
 }
 
 .email-banner__inner{

@@ -42,8 +42,8 @@ span{
 .email-banner {
   background: #ff7d00;
   padding: 5rem 0;
-  /*background: url('../images/amg-background-11-22-2021-new.jpg');*/
-  background-size: cover;
+  background: url('../images/fireworks.jpeg');
+  background-size: cover !important;
   background-size: auto 100%;
   /*border-top:  2px solid rgba(255, 255, 255, .5);*/
 }

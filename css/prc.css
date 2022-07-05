@@ -48,6 +48,10 @@ span{
   /*border-top:  2px solid rgba(255, 255, 255, .5);*/
 }
 
+.email-banner h2{
+	text-shadow: 0 0 50px white;
+}
+
 .full-bleed-banner{
 
 }
